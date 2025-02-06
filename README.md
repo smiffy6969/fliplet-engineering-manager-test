@@ -1,12 +1,21 @@
 # Engineering Manager Test
 
+## Welcome to the Engineering Manager Test
+
+This test is designed to evaluate your technical skills, problem-solving abilities, and critical thinking as an engineering manager at Fliplet. You will be working on a series of tasks that cover both backend and frontend development, as well as reviewing product requirements and providing written explanations for various scenarios.
+
+The tasks are intended to simulate real-world challenges you might face in this role. We encourage you to demonstrate your expertise, creativity, and efficiency in solving these problems. Remember to document your thought process and any AI tools you use during the test.
+
+Good luck, and we look forward to reviewing your submission!
+
+
 ## 📜 Instructions
 
 ### **How to Take the Test**
 1. **Fork this repository** (do NOT submit a PR).
 2. Complete the tasks in the appropriate files.
 3. **Commit & push your changes** to your forked repo.
-4. **Share GitHub access** with `<your-email@company.com>`.
+4. **Share GitHub access** with `@fliplet.com`.
 5. **Log AI usage:**  
    - **Provide all AI prompts used** (copy-paste them into `ai-prompts.md`).  
    - **Summarize AI impact** (write about it in your README summary).  
@@ -37,7 +46,7 @@ Your submission will be judged on:
 
 # 🛠️ Engineering Manager Tasks
 
-## **1️⃣ JavaScript/TypeScript Performance Task (30 min)**
+## **1️⃣ JavaScript/TypeScript Performance Task (20 min)**
 ### **Task:**  
 Optimize the function below for handling large datasets **efficiently**.
 
@@ -82,7 +91,7 @@ module.exports = processUsers;
 
 ---
 
-## **2️⃣ Express.js Rate Limiter Middleware (25 min)**
+## **2️⃣ Express.js Rate Limiter Middleware (20 min)**
 ### **Task:**  
 Implement a middleware to **limit API requests per tenant (organization).**
 
@@ -212,16 +221,61 @@ Your product team wrote a **bad PRD**. Find **3 critical issues**.
 ```md
 # PRD Review
 
-## 🚨 Identified Issues
-1. **Security Risk** – No authentication mentioned.
-2. **Scalability Issue** – No plan for handling growth.
-3. **Unclear Acceptance Criteria** – Feature scope is ambiguous.
+## 📝 Instructions
+Review the following PRD and identify **3 critical issues**.
 
-## 🔧 Proposed Fixes
-- Add authentication details.
-- Define a scaling strategy.
-- Provide detailed success criteria.
+## Example PRD
+### Feature: User Profile Management
+1. Users should be able to update their name and email.
+2. There is no authentication mechanism specified.
+3. No mention of error handling.
+
+## ✏️ Your Review
+- Issue 1:
+- Issue 2:
+- Issue 3:
 ```
+
+---
+
+## **8️⃣ AWS Debugging Scenario (20 min)**
+### **Scenario:**  
+You upgraded **Aurora Serverless Postgres v13 to v14**, but the cluster fails with:
+```
+ERROR: Extension incompatible: some_extension v1.3 not compatible with Postgres v14
+```
+### **Task:**  
+- Identify **potential reasons for failure**.
+- Provide **a step-by-step debugging process**.
+- **Ensure minimal downtime** for production users.
+
+📄 **File to edit:** `/solutions/aws-debugging.md`
+
+---
+
+## **9️⃣ Scalability Strategy (20 min)**
+### **Scenario:**  
+Your application needs to **process and serve 10M+ images per day**.
+
+### **Task:**  
+- Design a **highly scalable architecture** on AWS.
+- Optimize **for cost-efficiency** (consider AWS Lambda, S3, Step Functions).
+- **Ensure smooth delivery** over weak mobile connections.
+
+📄 **File to edit:** `/solutions/scalability-plan.md`
+
+---
+
+## **🔟 Security Strategy: JWT Expiry Fix (20 min)**
+### **Scenario:**  
+Your security team found that **JWT access tokens never expire**, leaving the system vulnerable.
+
+### **Task:**  
+- Design a **secure authentication flow** using **access & refresh tokens**.
+- Propose a **gradual rollout strategy** to prevent breaking existing users.
+- Identify **potential risks** and how to mitigate them.
+
+📄 **File to edit:** `/solutions/security-strategy.md`
 
 ---
 
@@ -229,7 +283,7 @@ Your product team wrote a **bad PRD**. Find **3 critical issues**.
 ✔️ **Fork this repo** (DO NOT create a public PR).  
 ✔️ **Implement solutions in the designated files.**  
 ✔️ **Commit & push your work.**  
-✔️ **Share GitHub access with `<your-email@company.com>`.**  
+✔️ **Share GitHub access with `@fliplet.com`.**  
 
 🚀 **Good luck!**
 
