@@ -1,10 +1,12 @@
 # AI Prompt Logging
 
 ## 📝 AI Usage Summary
-- **Did AI help you solve any problems? If so, how?**
-- **What parts were 100% human-driven?**
-- **Did AI generate incorrect/misleading answers? How did you correct them?**
-- **Which AI-powered IDE tools did you use? (e.g., GitHub Copilot, Cursor, ChatGPT in VS Code, etc.)**
+
+### Data Processor
+
+I use cursor at present anyway, but it can get in the way alot so only used auto complete for replacing like names such as user. to users[i].
+I used google to search for efficency saving on map over set.
+wanted to work promise.all into equation for some parallel gains, and simple batching put in to stop memory issues with lage datasets (could have put a limit in too i guess).
 
 ---
 
