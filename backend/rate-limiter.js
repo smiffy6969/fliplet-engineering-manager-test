@@ -21,3 +21,18 @@ function rateLimiter(req, res, next) {
 }
 
 module.exports = rateLimiter;
+
+const express = require('express');
+// const rateLimiter = require('./rate-limiter'); // to use from another file
+
+const app = express();
+
+app.use(rateLimiter); // implementing from same file
+
+app.get('/', (req, res) => {
+  res.json({ message: 'Data from API' });
+});
+
+app.listen(3000, () => {
+  console.log('Server listening on port 3000');
+});
