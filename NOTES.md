@@ -48,3 +48,7 @@ ASked me to alter a file that did not exist, so i altered `docs/PRD-to-review.md
 
 It asked me to review the PRD but tehre really wasn't any context as a PRD, just three bullets i guessed where the issues already, so i ouldn't really think what to do but expand on them as it was a little unclear what was needed.
 
+### AWS Debugging Scenario
+
+I provided steps I may take to first, fallback, second fix and third learn
+
