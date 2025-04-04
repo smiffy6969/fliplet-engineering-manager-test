@@ -10,13 +10,12 @@ wanted to work promise.all into equation for some parallel gains, and simple bat
 
 ### Rate Limiter
 
-I had to read this several times...
+no prompting needed, just add it in to the chain of middleware
 
-"Implement a middleware to **limit API requests per tenant (organization).**"
+### Drag and Drop
 
-it already does works as a middleware, and not asking for it to be improved... implement, as in show how ot use it???
+no prompting needed, just run the command to spawn a new vue app with vite and pull in the component
 
-again no prompts needed, just implementing with express use which next passes on to the next middleware in the express chain
 ---
 
 ## 📜 AI Prompts Used
