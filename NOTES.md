@@ -42,3 +42,9 @@ So i literally ask gemini the question and give it the incomplete code as i have
 
 after getting the intial TF set, i use cursor and claude to check it and verify it. thi swould be enough for me to through at a test setup somewhere.
 
+### PRD Review
+
+ASked me to alter a file that did not exist, so i altered `docs/PRD-to-review.md` and not `/solutions/prd-review.md`
+
+It asked me to review the PRD but tehre really wasn't any context as a PRD, just three bullets i guessed where the issues already, so i ouldn't really think what to do but expand on them as it was a little unclear what was needed.
+

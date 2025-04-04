@@ -107,3 +107,6 @@ Would you like me to help you with either of these steps?
 
 ---
 
+### PRD Review
+
+Only used cursor for spelling, as I am dyslexic and spelling can look fine at times.
