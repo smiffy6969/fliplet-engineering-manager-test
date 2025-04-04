@@ -16,7 +16,8 @@ again no prompts needed, just implementing with express use which next passes on
 
 ### Drag and Drop
 
-Again, a little confused....
+Again, a little confused.... says edit the drag drop file but its a fully functional component to spec file
+Asks to implement it but implementing it by altering that nice component file is messy so i pulled it in to a basic bare bones app setup
 
 "Implement a **drag-and-drop UI** that allows users to add UI components to a web page preview."
 
@@ -31,3 +32,13 @@ npm create vue@latest
 follow the promtps and out it pops... adjusted the paths to fit in flat folder and added in the drag and drop component
 
 this would be better organised in a full project setup structure.
+
+### infra.tf
+
+Now this one requires some prompting, as first off I have no way to test locally nor a setup to hand to run it on.
+I have altered TF in the past at Novuna but am no expert. I have however spent a lot of time with CloudFormation (my cerberusmvc project uses it)
+
+So i literally ask gemini the question and give it the incomplete code as i have no other means of verifying it at present, why use gemini, i like it and its a got a nice name! I could ask cursor and claude but lets spice it up a bit.
+
+after getting the intial TF set, i use cursor and claude to check it and verify it. thi swould be enough for me to through at a test setup somewhere.
+
