@@ -55,3 +55,9 @@ I provided steps I may take to first, fallback, second fix and third learn
 ### AWS Scalability Plan
 
 I mainly used google a little to check a few things like which image formats where progressive, i have used event triggers in past with lambda and s3 anyway we as CF and caching
+
+### Security Strategy
+
+I tend to use selef rotating short lived tokens, typically one that auto refresh given a grace period, this rotates tokens regularly and also retries original requests once hte handshake has applied the new token.
+
+Storing of the token is probably best in http only cookie or in memory only (an issue if refresh is an issue!!)
