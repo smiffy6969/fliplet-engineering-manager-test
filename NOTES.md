@@ -52,3 +52,6 @@ It asked me to review the PRD but tehre really wasn't any context as a PRD, just
 
 I provided steps I may take to first, fallback, second fix and third learn
 
+### AWS Scalability Plan
+
+I mainly used google a little to check a few things like which image formats where progressive, i have used event triggers in past with lambda and s3 anyway we as CF and caching
